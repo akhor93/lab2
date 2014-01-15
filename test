@@ -1,0 +1,9 @@
+dd if not already added
+[[ -z $(ssh-add -L | grep $key_file) ]] && ssh-add $key_filer::q
+q
+q
+q
+we
+rqweqwqpim
+quit
+

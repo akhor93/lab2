@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Hanalei);
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Felipa);
+
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
@@ -40,6 +44,31 @@ body {
      width: 525px;
 }
 */
-p {
+.project p {
      font-variant: small-caps;
+     text-align: center
+}
+
+h1 {
+     font-family: Satisfy, cursive;
+     font-size: 20px;
+     text-align: center;
+}
+
+.jumbotron p {
+     font-family: Hanalei;
+     font-size: 20px;
+}
+
+h2 {
+     font-family: Felipa;
+     text-align: center;
+}
+
+.container {
+     background:linear-gradient(to left, #c7e5e8 , #58c0c7);
+}
+
+body {
+     background: #e6e6e6;
 }
